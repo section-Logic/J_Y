@@ -70,7 +70,8 @@ h6{
 }
 .aboutinfo  {
     color: rgb(235, 232, 228);
-    font-style: sans-serif;
+    font-family: sans-serif;
+    font-style: italic;
     font-size: 30px;
     text-align: center;
 }
@@ -194,4 +195,5 @@ button {
   color: black;
   font-style:roboto;
 }
+
 
