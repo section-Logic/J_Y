@@ -1,0 +1,197 @@
+/* PAGE STYLING */
+.home-page{
+    background-image:url('banner.png');
+    background-color: black;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+}
+.services-page{
+    background-image:url('banner2.png');
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+}
+.contact-page{
+    background-image:url('banner2.png');
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+}
+.about-page{
+    background-image:url('banner2.png');
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-style: sans-serif;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-style: sans-serif;
+    fontt-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(255 ,255,255,.75);
+    text-align: flex-start;
+    font-style: sans-serif;
+}
+h2{
+    color: rgb(255 ,255,255,.75);
+    font-style: sans-serif;
+}
+h6{
+    color: rgb(255 ,255,255,.15);
+    text-align: left;
+    font-style: sans-serif;
+}
+.aboutinfo  {
+    color: rgb(235, 232, 228);
+    font-style: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    color:black;
+    font-style: sans-serif;
+}
+img{
+    width: 350px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 20px;
+}
+/* Hides H1 visually */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.contact:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #111;
+  transform: scale(1.1);
+}
+a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+}
+header {
+      background: #222;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+}
+/* Contact Page Styles */
+#contact {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.home-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.home-button:hover {
+  background-color: #005fa3;
+}
+/*Home Button Styling for Contact Page*/
+.home-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.home-button:hover {
+  background-color: #005fa3;
+}
+/* Contact Page Information */
+.contactpagecontent {
+  color: black;
+  font-style:roboto;
+}
+
